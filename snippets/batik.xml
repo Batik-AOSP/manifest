@@ -37,6 +37,7 @@
 
   <!-- Device -->
   <project path="device/batik/sepolicy" name="device_batik_sepolicy" remote="batik" />
+  <project path="device/generic/common" name="device_generic_common" groups="pdk" remote="batik" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" groups="qcom,qssi" remote="batik" />
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy" groups="qcom,sdm660" remote="batik" revision="13-legacy-um" />
   <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" groups="qcom,lahaina" remote="batik" />
