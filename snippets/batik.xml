@@ -34,6 +34,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <project path="build/blueprint" name="build_blueprint" groups="pdk,tradefed" remote="batik" />
 
   <!-- Device -->
   <project path="device/batik/sepolicy" name="device_batik_sepolicy" remote="batik" />
