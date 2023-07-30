@@ -103,7 +103,7 @@
   <project path="hardware/libhardware" name="hardware_libhardware" groups="pdk" remote="batik" />
 
   <!-- Packages -->
-  <project path="packages/apps/Aperture" name="packages_apps_Aperture" groups="pdk-fs" remote="batik" />
+  <project path="packages/apps/Flash" name="packages_apps_Flash" groups="pdk-fs" remote="batik" />
   <project path="packages/apps/batikLauncher" name="packages_apps_batikLauncher" groups="pdk-fs" remote="batik" />
   <project path="packages/apps/batikSpace" name="packages_apps_batikSpace" groups="pdk-fs" remote="batik" />
   <project path="packages/apps/batikWalls" name="packages_apps_batikWalls" groups="pdk-fs" remote="batik" />
