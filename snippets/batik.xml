@@ -97,9 +97,10 @@
   <project path="hardware/qcom-caf/thermal" name="hardware_qcom_thermal" groups="qcom,waipio-vendor" remote="batik" />
   <project path="hardware/qcom-caf/vr" name="hardware_qcom_vr" groups="qcom,sdm660" remote="batik" />
   <project path="hardware/qcom-caf/wlan" name="hardware_qcom_wlan" groups="qcom,waipio-vendor" remote="batik" revision="13-caf" />
-  <project path="hardware/batik/interfaces" name="hardware_batik_interfaces" remote="batik" />
+  <project path="hardware/lineage/interfaces" name="hardware_batik_interfaces" remote="batik" />
   <project path="hardware/interfaces" name="hardware_interfaces" remote="batik" />
   <project path="hardware/libhardware" name="hardware_libhardware" groups="pdk" remote="batik" />
+  <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" groups="pdk" remote="batik" />
 
   <!-- Packages -->
   <project path="packages/apps/Flash" name="packages_apps_Flash" groups="pdk-fs" remote="batik" />
