@@ -17,6 +17,7 @@
 
   <!-- Batik-AOSP -->
   <!-- Rootdir -->
+  <project path="art" name="art" remote="batik" />
   <project path="bionic" name="bionic" groups="pdk" remote="batik" />
   <project path="manifest" name="manifest" remote="batik" />
 
