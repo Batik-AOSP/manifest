@@ -50,6 +50,7 @@
   <project path="external/gptfdisk" name="external_gptfdisk" remote="batik" />
   <project path="external/mksh" name="external_mksh" remote="batik" />  
   <project path="external/tinycompress" name="external_tinycompress" groups="pdk" remote="batik" />
+  <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="batik" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="batik" />
@@ -113,10 +114,13 @@
   <!--<project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="batik" -->
   <!--<project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" groups="pdk-fs" remote="batik" -->
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="batik" />
+  <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="batik" />
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" groups="pdk-fs" remote="batik-13" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="batik" />
   
   <!-- System -->
+  <project path="system/bpf" name="system_bpf" remote="batik" />
+  <project path="system/security" name="system_security" remote="batik" />
   <project path="system/core" name="system_core" groups="pdk" remote="batik" />
   <project path="system/extras" name="system_extras" groups="pdk" remote="batik" />
   <project path="system/libhidl" name="system_libhidl" groups="pdk" remote="batik" />
