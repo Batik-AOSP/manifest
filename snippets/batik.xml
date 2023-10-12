@@ -15,6 +15,10 @@
            fetch="https://github.com/Batik-AOSP/"
            revision="14" />
 
+  <remote  name="batik-gitlab"
+           fetch="https://gitlab.com/batik-aosp"
+           revision="refs/heads/14" />
+
   <!-- Batik-AOSP -->
   <!-- Rootdir -->
   <project path="art" name="art" remote="batik" />
@@ -114,7 +118,7 @@
   <!--<project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="batik" -->
   <!--<project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" groups="pdk-fs" remote="batik" -->
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="batik" />
-  <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="batik" />
+  <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="batik-gitlab" />
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" groups="pdk-fs" remote="batik-13" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="batik" />
   
