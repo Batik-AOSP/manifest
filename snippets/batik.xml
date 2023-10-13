@@ -132,6 +132,7 @@
   <project path="system/libhwbinder" name="system_libhwbinder" remote="batik" />
   <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="batik" />
   <project path="system/tools/mkbootimg" name="system_tools_mkbootimg" groups="pdk" remote="batik" />
+  <project path="system/vold" name="system_vold" remote="batik" />
 
   <!-- Vendor -->
   <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" groups="qcom,qssi" remote="batik-13" />
