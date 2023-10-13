@@ -55,6 +55,7 @@
   <project path="external/mksh" name="external_mksh" remote="batik" />  
   <project path="external/tinycompress" name="external_tinycompress" groups="pdk" remote="batik" />
   <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="batik" />
+  <project path="external/libcxx" name="external_libcxx" remote="batik" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="batik" />
